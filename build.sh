@@ -1,0 +1,1 @@
+cd src && make clean && make ARCH=wasm build -j && cd .. && cp src/stockfish.js src/stockfish.worker.js src/stockfish.wasm ../web/public
